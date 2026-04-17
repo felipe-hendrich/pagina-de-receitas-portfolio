@@ -36,6 +36,7 @@ A Página de receitas é uma interface desenvolvida para praticar fundamentos de
 - Estrutura com título, imagem, ingredientes e modo de preparo
 - Layout visual limpo e agradável
 - Organização de conteúdo para leitura facilitada
+- Layout responsivo
 
 
 ## Projeto online

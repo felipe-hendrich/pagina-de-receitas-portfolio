@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -13,11 +14,13 @@ body {
   background-image: url(assets/bg-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 #page {
-  box-sizing: border-box;
-  width: 800px;
+  
+  width: 100%;
+  max-width: 800px;
   padding: 24px;
   border-radius: 24px;
   margin: 48px auto 28px;
@@ -26,10 +29,12 @@ body {
 
 img {
   border-radius: 16px;
+  width: 100%;
 }
 
 main {
   padding: 24px;
+  width: 100%;
 }
 
 section + section {
@@ -63,4 +68,40 @@ footer {
   color: #F0E8C2;
   text-align: center;
   padding-bottom: 48px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 16px 16px 0;
+  }
+
+  #page {
+    margin: 24px auto;
+    padding: 18px;
+    border-radius: 18px;
+  }
+
+  main {
+    padding: 16px 0;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  #about p,
+  #preparation p {
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  ul {
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 150%;
+  }
 }
