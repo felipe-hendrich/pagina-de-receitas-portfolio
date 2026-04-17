@@ -15,7 +15,7 @@ Projeto de página de receitas desenvolvido para praticar fundamentos do desenvo
 <br>
 
 <p align="center">
-<img alt="projeto DevLinks" src=".github/capa-readme.png" width="100%">
+<img alt="projeto página de receitas" src=".github/capa-readme.png" width="100%">
 </p>
 
 ## Projeto
